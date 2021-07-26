@@ -2,7 +2,7 @@
 
 Building configuration...
 
-Current configuration : 136813 bytes
+Current configuration : 1368 bytes
 !
 ! Last configuration change at 20:27:35 EST Fri Feb 19 2021 by dmiglani
 ! NVRAM config last updated at 23:57:27 EST Fri Feb 19 2021 by dmiglani
@@ -70,7 +70,7 @@ ip ssh version 2
 no ip domain-lookup
 ip domain-name jefferies.com
 ip sla 1
- icmp-echo 10.163.1.213 source-ip 10.163.1.214
+ icmp-echo 10.163.1.213 source-ip 10.163.1.230
  timeout 2000
  frequency 5
 ip sla schedule 1 life forever start-time now
